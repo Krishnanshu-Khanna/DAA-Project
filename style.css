@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    max-width: 980;
+    margin: auto;
+    /*background-color: rgba(245, 245, 245, 0.65);*/
+    color: #000002;
+    background: #7543c6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5b43c6 , #cdaeff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5b43c6 , #cdaeff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+button {
+    font-size: 1.1em;
+    color: #3F51B5;
+    border-radius: 3px;
+    background-color: transparent;
+    margin: 5px;
+}
+input {
+    font-size: 1.1em;
+    border-radius: 3px;
+}
+svg {
+    border: solid 3px #607D8B;
+    box-shadow: 0 2px 5px 0 #021f2d, 0 2px 8px 0 #021f2d;
+    margin: 5px;
+}
+#svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#btn-container {
+    margin: 20px auto;
+    text-align: center;
+}
+#title {
+    margin: 20px auto;
+    text-align: center;
+}
+.descp{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5em;
+    height: 100dvh;
+    color: #000002;
+}
+.descp >h1{
+    color: #150022;
+}
+.descp>p{
+    font-size: 1.3rem;
+}
+
+.algo{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.line-numbers {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 10px;
+    background-color: #f8f9fa;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.line-numbers div {
+    line-height: 1.5;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* overflow-x: auto; */
+}
+
+.code pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
